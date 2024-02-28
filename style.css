@@ -382,3 +382,91 @@
   font-family: "Lora", sans-serif; 
   font-weight: 100px;
 }
+
+.pagina6 {
+  background: #004178;
+  height: 1230px;
+  width: 100%;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif; 
+  color: white;
+  font-size: 28px;
+}
+
+.formulario {
+  background: #000000;
+  border-radius: 25px;
+  padding: 15px;
+  width: 25%;
+  height: 73%
+}
+
+fieldset {
+  border: 3px solid #005BAA;
+  border-radius: 1px;
+  padding: 0px 15px;
+}
+
+legend {
+  border: 1px solid #005BAA;
+  padding: 10px;
+  text-align: center;
+  background-color: #005BAA;
+  border-radius: 8px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.labelInput {
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput  {
+  top: -40px;
+  font-size: 20px;
+  color: #005BAA;
+}
+
+#date-nasc {
+  border: none;
+  padding: 8px;
+  font-size: 24px;
+  border-radius: 5px;
+  outline: none;
+}
+
+#submit {
+  background-color: #005BAA;
+  width: 100%;
+  border: none;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#submit:hover {
+  background-color: #004178;
+}

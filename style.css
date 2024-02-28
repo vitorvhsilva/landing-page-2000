@@ -4,6 +4,7 @@
   margin: 0;
   font-weight: 300;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -14,7 +15,43 @@
 .navdiv {
   display: flex;  
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.navdiv li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navdiv a{
+  color: white;
+  font-size: 40px;
+  margin: 0px 100px;
+  font-family: 'Lora', sans-serif;
+  transition: .5s;
+}
+
+.navdiv a:hover {
+  color: #004178;
+}
+
+.botao2 button {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif; 
+  text-align: center;
+  color: white;
+  background-color: #004178;
+  border-radius: 35px;
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.botao2 button:hover {
+  background-color: #011E4B;
 }
 
 .logo img {
@@ -400,7 +437,7 @@
   border-radius: 25px;
   padding: 15px;
   width: 25%;
-  height: 73%
+  height: 74%;
 }
 
 fieldset {
@@ -460,7 +497,7 @@ legend {
   border: none;
   padding: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 15px;
   border-radius: 10px;
   cursor: pointer;

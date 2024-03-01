@@ -25,8 +25,8 @@
 
 .navdiv a{
   color: white;
-  font-size: 40px;
-  margin: 0px 100px;
+  font-size: 2.5vh;
+  margin: 0px 60px;
   font-family: 'Lora', sans-serif;
   transition: .5s;
 }
@@ -36,7 +36,7 @@
 }
 
 .botao2 button {
-  font-size: 30px;
+  font-size: 2.2vh;
   font-family: "Montserrat", sans-serif; 
   text-align: center;
   color: white;
@@ -55,7 +55,7 @@
 }
 
 .logo img {
-  width: 150px;
+  width: 100px;
   margin-left: 50px;
 }
 
@@ -65,12 +65,13 @@
 
 .pagina1 {
   background: #005BAA;
-  height: 1230px;
+  height: 85vh;
+  width: 100%;
 }
 
 .pagina1 h1 {
   margin: auto;
-  font-size: 120px;
+  font-size: 8vh;
   text-align: center;
   color: white;
   font-family: "Lora", sans-serif; 
@@ -80,7 +81,7 @@
 .pagina1 p {
   padding-top: 50px;
   margin: auto;
-  font-size: 40px;
+  font-size: 3vh;
   font-family: "Montserrat", sans-serif; 
   text-align: center;
   color: white;
@@ -89,7 +90,7 @@
 .botao1 {
   margin: 0;
   position: absolute;
-  top: 70%;
+  bottom: 10%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -116,34 +117,35 @@
 
 #folha1 {
   position: absolute;
-  bottom: 0%;
+  bottom: -3.2%;
   left: 2%;
-  height: 372px;
+  height: 30vh;
 }
 
 #folha2 {
   position: absolute;
-  bottom: 0%;
+  bottom: -3.2%;
   left: 20%;
-  height: 572px;
+  height: 40vh;
 }
 
 #folha3 {
   position: absolute;
-  bottom: 0%;
-  left: 70%;
-  height: 372px;
+  bottom: -3.2%;
+  left: 60%;
+  height: 30vh;
 }
 
 #folha4 {
   position: absolute;
-  bottom: 0%;
-  left: 85%;
-  height: 572px;
+  bottom: -3.2%;
+  left: 80%;
+  height: 50vh;
 }
 
 .pagina2 {
   background: #004178;
+  width: 100%;
   height: 1230px;
   display: flex;  
   align-items: center;
@@ -151,13 +153,13 @@
 }
 
 .pagina2 img {
-  height: 500px;
+  height: 50vh;
   border-radius: 25px;
 }
 
 .pagina2 h2 {
   margin-left: 50px;
-  font-size: 64px;
+  font-size: 6vh;
   font-family: "Lora", sans-serif;
   color: white; 
 }
@@ -166,7 +168,7 @@
   margin-left: 85px;
   margin-top: 30px;
   border-radius: 25px;
-  font-size: 32px;
+  font-size: 3vh;
   font-family: "Montserrat", sans-serif;
   font-weight: 400px;
   color: white; 
@@ -175,12 +177,13 @@
 .pagina3 {
   background: #011E4B;
   height: 1400px;
+  width: 100%;
 }
 
 .pagina3 h2 {
   padding-top: 50px;
   margin: auto;
-  font-size: 96px;
+  font-size: 7vh;
   text-align: center;
   color: white;
   font-family: "Lora", sans-serif; 
@@ -190,7 +193,7 @@
 .pagina3 p {
   padding-top: 40px;
   margin: auto;
-  font-size: 48px;
+  font-size: 5vh;
   font-family: "Lora", sans-serif; 
   text-align: center;
   color: white;
@@ -200,93 +203,96 @@
   margin-top: 300px;
   display: flex;  
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .beneficio1 {
   background-color: white;
-  width: 500px;
-  height: 580px;
-  margin: 0px 200px;
+  width: 40vh;
+  height: 60vh;
   border-radius: 40px;
 }
 
 .beneficio2 {
   background-color: white;
-  width: 500px;
-  height: 580px;
-  margin: -300px 200px 0px;
+  width: 40vh;
+  height: 60vh;
   border-radius: 40px;
+  margin-bottom: 20vh;
 }
 
 .beneficio3 {
   background-color: white;
-  width: 500px;
-  height: 580px;
-  margin: 0px 200px;
+  width: 40vh;
+  height: 60vh;
   border-radius: 40px;
 }
 
 .beneficios img {
   position: relative;
-  padding-top: 60px;
-  left: 20%;
-  width: 100px;
+  padding-top: 40px;
+  left: 10%;
+  width: 8vh;
 }
 
 .beneficios h3 {
-  margin-left: 140px;
-  font-size: 34px;
+  font-size: 3vh;
   font-family: "Montserrat", sans-serif; 
   color: black;
   text-align: left;
   font-weight: 500;
+  padding-bottom: 6vh;
 }
 
 #titulo1 {
   position: relative;
-  top: -15%;
-  left: 15%;
+  top: -12%;
+  left: 35%;
+  width: 20vh;
 }
 
 #titulo2 {
   position: relative;
-  top: -15%;
-  left: 5%;
+  top: -12%;
+  left: 33%;
+  width: 20vh;
 }
 
 #tituloimg2 {
   position: relative;
-  left: 10%;
+  left: 8%;
 }
 
 #titulo3 {
   position: relative;
-  top: -15%;
-  left: 5%;
+  top: -12%;
+  left: 31%;
+  width: 20vh;
 }
 
 #tituloimg3 {
   position: relative;
-  left: 10%;
+  left: 7%;
 }
 
 .beneficio1 li{
   position: relative;
-  left: 15%;
-  font-size: 20px;
+  left: 13%;
+  bottom: 0%;
+  font-size: 1.8vh;
   font-family: "Montserrat", sans-serif; 
   color: black;
   text-align: left;
   font-weight: 400;
-  margin-top: -50px;
+  margin-top: -70px;
   margin-bottom: 70px;
 }
 
 .beneficio2 li{
   position: relative;
-  left: 15%;
-  font-size: 20px;
+  left: 13%;
+  font-size: 1.8vh;
   font-family: "Montserrat", sans-serif; 
   color: black;
   text-align: left;
@@ -297,8 +303,8 @@
 
 .beneficio3 li{
   position: relative;
-  left: 15%;
-  font-size: 20px;
+  left: 13%;
+  font-size: 1.8vh;
   font-family: "Montserrat", sans-serif; 
   color: black;
   text-align: left;
@@ -310,10 +316,11 @@
 .pagina4 {
   background: white;
   height: 1430px;
+  width: 100%;
 }
 
 .pagina4 h2 {
-  font-size: 40px;
+  font-size: 3vh;
   font-family: "Montserrat", sans-serif; 
   color: #004178;
   text-align: center;
@@ -345,25 +352,25 @@
 }
 
 .pagina4 h3 {
-  font-size: 110px;
+  font-size: 10vh;
   font-family: "Lora", sans-serif; 
   color: #004178;
   text-align: left;
   font-weight: 300;
   position: relative;
-  top: 30%;
-  left: 20%;
+  top: 25%;
+  left: 10%;
   width: 300px;
 }
 
 .pagina4 p {
-  font-size: 48px;
+  font-size: 5vh;
   font-family: "Montserrat", sans-serif; 
   color: #004178;
   text-align: left;
   font-weight: 300;
   position: relative;
-  top: 12%;
+  top: 10%;
   left: 55%;
   width: 700px;
 }
@@ -380,7 +387,7 @@
 .pagina5 h2 {
   padding-top: 50px;
   margin: auto;
-  font-size: 120px;
+  font-size: 10vh;
   text-align: center;
   color: white;
   font-family: "Lora", sans-serif; 
@@ -395,13 +402,13 @@
 }
 
 .pagina5 img {
-  width: 600px;
+  width: 50vh;
   position: relative;
   top: 55%;
 }
 
 .pagina5 p {
-  font-size: 36px;
+  font-size: 3vh;
   font-family: "Montserrat", sans-serif; 
   color: white;
   text-align: left;
@@ -411,9 +418,9 @@
 }
 
 .pagina5 h3 {
-  padding-top: 70px;
+  padding-top: 250px;
   margin: auto;
-  font-size: 60px;
+  font-size: 6vh;
   text-align: center;
   color: white;
   font-family: "Lora", sans-serif; 
@@ -429,7 +436,7 @@
   justify-content: center;
   font-family: "Montserrat", sans-serif; 
   color: white;
-  font-size: 28px;
+  font-size: 2.6vh;
 }
 
 .formulario {
@@ -437,7 +444,7 @@
   border-radius: 25px;
   padding: 15px;
   width: 25%;
-  height: 74%;
+  height: 68%;
 }
 
 fieldset {

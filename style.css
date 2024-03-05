@@ -26,7 +26,7 @@
 .navdiv a{
   color: white;
   font-size: 2.5vh;
-  margin: 0px 60px;
+  margin: 0px 3vw;
   font-family: 'Lora', sans-serif;
   transition: .5s;
 }
@@ -43,7 +43,7 @@
   background-color: #004178;
   border-radius: 35px;
   border: none;
-  padding: 16px 32px;
+  padding: 1vh 2vh;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -56,11 +56,12 @@
 
 .logo img {
   width: 100px;
-  margin-left: 50px;
+  margin-left: 2rem;
 }
 
 .brazul {
   background: #005BAA;
+  height: 10vh;
 }
 
 .pagina1 {
@@ -79,7 +80,7 @@
 }
 
 .pagina1 p {
-  padding-top: 50px;
+  padding-top: 2rem;
   margin: auto;
   font-size: 3vh;
   font-family: "Montserrat", sans-serif; 
@@ -97,7 +98,7 @@
 }
 
 .botao1 button {
-  font-size: 30px;
+  font-size: 3vh;
   font-family: "Montserrat", sans-serif; 
   text-align: center;
   color: white;
@@ -117,36 +118,36 @@
 
 #folha1 {
   position: absolute;
-  bottom: -3.2%;
   left: 2%;
   height: 30vh;
 }
 
 #folha2 {
   position: absolute;
-  bottom: -3.2%;
   left: 20%;
   height: 40vh;
 }
 
 #folha3 {
   position: absolute;
-  bottom: -3.2%;
   left: 60%;
   height: 30vh;
 }
 
 #folha4 {
   position: absolute;
-  bottom: -3.2%;
   left: 80%;
   height: 50vh;
+}
+
+#folha1, #folha2, #folha3, #folha4 {
+  bottom: -6%;
 }
 
 .pagina2 {
   background: #004178;
   width: 100%;
-  height: 1230px;
+  height: 130vh;
   display: flex;  
   align-items: center;
   justify-content: center;
@@ -176,7 +177,7 @@
 
 .pagina3 {
   background: #011E4B;
-  height: 1400px;
+  height: 145vh;
   width: 100%;
 }
 
@@ -200,7 +201,7 @@
 }
 
 .beneficios {
-  margin-top: 300px;
+  margin-top: 7%;
   display: flex;  
   align-items: center;
   justify-content: space-around;
@@ -315,7 +316,7 @@
 
 .pagina4 {
   background: white;
-  height: 1430px;
+  height: 145vh;
   width: 100%;
 }
 
@@ -325,7 +326,8 @@
   color: #004178;
   text-align: center;
   font-weight: 300;
-  margin-top: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #cemempresas {
@@ -340,19 +342,19 @@
 }
 
 .apoiadores img{
-  width: 200px;
-  margin: 50px 100px;
+  width: 10%;
+  margin: 5vh 10vh;
 }
 
 .linhav {
   border-left: 5px solid #004178;
   border-radius: 0px;
-  height: 250px;
+  height: 12rem;
   width: 2px;
 }
 
 .pagina4 h3 {
-  font-size: 10vh;
+  font-size: 5rem;
   font-family: "Lora", sans-serif; 
   color: #004178;
   text-align: left;
@@ -360,11 +362,11 @@
   position: relative;
   top: 25%;
   left: 10%;
-  width: 300px;
+  width: max-content;
 }
 
 .pagina4 p {
-  font-size: 5vh;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif; 
   color: #004178;
   text-align: left;
@@ -372,7 +374,7 @@
   position: relative;
   top: 10%;
   left: 55%;
-  width: 700px;
+  width: max-content;
 }
 
 #forte {
@@ -381,11 +383,11 @@
 
 .pagina5 {
   background: #005BAA;
-  height: 1230px;
+  height: 140vh ;
 }
 
 .pagina5 h2 {
-  padding-top: 50px;
+  padding-top: 5vh;
   margin: auto;
   font-size: 10vh;
   text-align: center;
@@ -418,7 +420,7 @@
 }
 
 .pagina5 h3 {
-  padding-top: 250px;
+  padding-top: 7%;
   margin: auto;
   font-size: 6vh;
   text-align: center;
@@ -429,7 +431,7 @@
 
 .pagina6 {
   background: #004178;
-  height: 1230px;
+  height: 140vh;
   width: 100%;
   display: flex;  
   align-items: center;
@@ -504,7 +506,7 @@ legend {
   border: none;
   padding: 30px;
   color: white;
-  font-size: 30px;
+  font-size: 3vh;
   margin-bottom: 15px;
   border-radius: 10px;
   cursor: pointer;
@@ -513,4 +515,149 @@ legend {
 
 #submit:hover {
   background-color: #004178;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .botao1 {
+    bottom: 10%;
+  }
+
+  .brazul {
+    border: none;
+    height: 5vh;
+  }
+
+  .formulario {
+    height: 63%;
+    width: 40%;
+  }
+
+  #folha1, #folha2, #folha3, #folha4 {
+    bottom: -2%;
+  }
+
+}
+
+@media screen and (max-width: 1024px)
+{
+  .brazul {
+    height: 0vh;
+  }
+
+  .navdiv a{
+    display: none;
+  }
+
+  .botao1 button {
+    font-size: 1.5rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .botao2 button {
+    font-size: 1rem;
+    padding: 0.3rem 1.2rem;
+  }
+
+  #folha1, #folha2, #folha3, #folha4 {
+    bottom: 3%;
+  }
+
+  #folha1 {
+    height: 20vh;
+  }
+
+  #folha2 {
+    height: 30vh;
+  }
+
+  #folha3 {
+    left: 63%;
+    height: 20vh;
+  }
+
+  #folha4 {
+    height: 30vh;
+  }
+
+  .formulario {
+    width: 50%;
+  }
+
+  .pagina4 p {
+    font-size: 1.5rem;
+    top: 13%;
+  }
+
+  .pagina2 img {
+    height: 40vh;
+    border-radius: 25px;
+  }
+  
+  .pagina2 h2 {
+    margin-left: 50px;
+    font-size: 2rem;
+  }
+  
+  .pagina2 li {
+    margin-left: 85px;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    color: white; 
+  }
+
+  .pagina3 {
+    height: max-content;
+  }
+
+  .pagina3 h2 {
+    font-size: 4rem;
+  }
+  
+  .pagina3 p {
+    font-size: 2rem;
+  }
+
+  .beneficios {
+    display: inline;  
+  }
+
+  .beneficio1 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .beneficio2 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .beneficio3 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .pagina4 {
+    height: 1000px;
+  }
+
+  .pagina4 h3 {
+    font-size: 4rem;
+  }
+
+  .pagina5 {
+    height: 800px;
+  }
+
+  .pagina5 img {
+    width: 30vh;
+  }
+
+  .pagina5 p {
+    font-size: 1.2rem;
+  }
+
 }

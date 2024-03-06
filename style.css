@@ -517,7 +517,7 @@ legend {
   background-color: #004178;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {   
 
   .botao1 {
     bottom: 10%;
@@ -539,8 +539,7 @@ legend {
 
 }
 
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px){
   .brazul {
     height: 0vh;
   }
@@ -560,7 +559,7 @@ legend {
   }
 
   #folha1, #folha2, #folha3, #folha4 {
-    bottom: 3%;
+    display: none;
   }
 
   #folha1 {
@@ -659,5 +658,247 @@ legend {
   .pagina5 p {
     font-size: 1.2rem;
   }
+}
 
+@media screen and (max-width: 768px){
+
+  .pagina1 h1 {
+    font-size: 50px;
+  }
+
+  .pagina1 h2 {
+    font-size: 30px;
+  }
+
+  .botao1 button {
+    font-size: 2.0rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .formulario {
+    width: 50%;
+  }
+
+  .pagina4 p {
+    font-size: 1.5rem;
+    top: 13%;
+  }
+
+  .pagina2 img {
+    height: 30vh;
+    border-radius: 25px;
+    margin-left: 5%;
+  }
+  
+  .pagina2 h2 {
+    margin-left: 30px;
+    font-size: 30px;
+  }
+  
+  .pagina2 li {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+
+  .pagina3 {
+    height: max-content;
+  }
+
+  .pagina3 h2 {
+    font-size: 4rem;
+  }
+  
+  .pagina3 p {
+    font-size: 2rem;
+  }
+
+  .beneficios {
+    display: inline;  
+  }
+
+  .beneficio1 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .beneficio2 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .beneficio3 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .pagina4 {
+    height: 800px;
+  }
+
+  .apoiadores {
+    display: none;
+  }
+
+  .pagina4 h3 {
+    font-size: 50px;
+  }
+
+  .pagina4 p {
+    font-size: 20px;
+  }
+
+  .pagina5 {
+    height: 800px;
+  }
+
+  .pagina5 img {
+    width: 30vh;
+  }
+
+  .pagina5 h2 {
+    font-size: 60px;
+  }
+
+  .pagina5 h3 {
+    font-size: 40px;
+  }
+
+  .pagina5 p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 425px){
+
+  .pagina1 h1 {
+    font-size: 40px;
+  }
+
+  .pagina1 h2 {
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .botao1 {
+    left: 50%;
+    width: 80%;
+  }
+
+  .botao1 button {
+    font-size: 1.5rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .formulario {
+    width: 80%;
+  }
+
+  .pagina4 p {
+    font-size: 1.5rem;
+    top: 13%;
+  }
+
+  .pagina2 {
+    align-items: baseline;
+    justify-content: baseline;
+    height: 500px;
+  }
+
+  .pagina2 img {
+    height: 10vh;
+    border-radius: 25px;
+    display: none;
+  }
+  
+  .pagina2 h2 {
+    font-size: 24px;
+    margin: 50px auto 0px;
+    text-align: center;
+  }
+  
+  .pagina2 li {
+    font-size: 16px;
+  }
+
+  .pagina3 {
+    height: max-content;
+  }
+
+  .pagina3 h2 {
+    font-size: 4rem;
+  }
+  
+  .pagina3 p {
+    font-size: 2rem;
+  }
+
+  .beneficios {
+    display: inline;  
+  }
+
+  .beneficio1 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .beneficio2 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .beneficio3 {
+    display: block;
+    margin: 10vh auto;
+  }
+
+  .pagina4 {
+    height: 800px;
+  }
+
+  .apoiadores {
+    display: none;
+  }
+
+  .pagina4 h3 {
+    font-size: 50px;
+    top: 10%;
+    left: 15%;
+  }
+
+  .pagina4 p {
+    font-size: 20px;
+    top: 15%;
+    left: 15%;
+  }
+
+  .pagina5 {
+    height: 800px;
+  }
+
+  .biotech {
+    display: inline;
+    width: 100px;
+  }
+
+  .pagina5 img {
+    width: 30vh;
+    top: 0%;
+    left: 18%;
+  }
+
+  .pagina5 h2 {
+    font-size: 60px;
+  }
+
+  .pagina5 p {
+    font-size: 15px;
+    top: 0%;
+    left: 5%;
+    width: max-content;
+  }
+
+  .pagina5 h3 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
 }
